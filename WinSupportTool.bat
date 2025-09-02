@@ -1,12 +1,12 @@
 @echo off
-title MENU DE SUPORTE E REPARO - FUNESA
+title WinSupportTool
 color 0A
 
 :MENU
 cls
 echo =====================================================
-echo          MENU DO SUPORTE TECNICO - FUNESA
-echo              por Pablo Oliveira - V3.0 - Remake Henrique Rizotti
+echo                   WinSupportTool
+echo  por Pablo Oliveira - V3.0 - Remake Henrique Rizotti
 echo =====================================================
 echo.
 
@@ -94,4 +94,5 @@ if "%opcao%"=="29" regedit
 if "%opcao%"=="30" exit
 
 pause
+
 goto MENU
